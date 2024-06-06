@@ -1,0 +1,131 @@
+
+body {
+  font-family: Roboto, sans-serif;
+    animation: animate 12s
+  infinite linear alternate;
+}
+@keyframes animate {
+0% {
+ background: #c99ba7;
+}
+25%{
+  background: #ff9bca;
+}
+50% {
+ background: #ca9bfa;
+}
+75% {
+ background: #a858f5;
+}
+100% {
+ background: #ffb2ff;
+}
+}
+
+.container {
+  padding: 0 40px;
+  margin-left: 80px;
+
+
+}
+.about {
+  font-size: 2em;
+  font-style: oblique;
+  color: white;
+  text-align: center
+
+}
+.contacts {
+text-align: center;
+
+}
+
+  /* Свойства ссылок */
+a {
+  display: block;
+  text-decoration:none;
+  margin-bottom:  0em;
+  position: relative;
+}
+
+  /* Что делать при наведении на ссылку */
+a:hover {
+  color:#FFD700;
+}
+ul.links {
+  margin: 0px ;/* Обнуляем значение отступов */
+  padding: 10px; /* Значение полей */
+  display: flex;
+}
+
+li{
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 10px; /* Отступ слева */
+    border: 1px solid #000; /* Рамка вокруг текста */
+    padding: 10px; /* Поля вокруг текста */
+    border-color: whitesmoke;
+    display: flex; 
+}
+
+.links-area { 
+  display: flex; 
+  justify-content: center; /* Стилизация "блока ссылок" */
+  align-items: center; 
+}
+
+h1 {
+    font-size: 3em;
+    font-style: italic;
+    color: #e8ffff;
+
+}
+h2 {
+  font-size: 2em;
+  font-style: inherit;
+  color: whitesmoke;
+}
+
+  /* Свойства фотографии*/
+.photo {
+
+  border-radius: 50%;
+  /* Радиус скругления */
+  border: 3px solid transparent;
+  /* Параметры рамки */
+  box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.52);
+  object-fit: cover;
+  display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+  /* Эффект наведения на картинку */
+.photo:hover {
+  border: 3px solid #FFF;
+}
+
+.button-link {
+  margin-top: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 320px;
+  background: #ffffff;
+  border-radius: 10px;
+
+  font-size: 14px;
+  line-height: 1.4;
+
+  color: #D460CF;
+  font-style: inherit;
+cursor: pointer;
+}
+
+.button {
+  border: 0;
+}
+
+
